@@ -33,7 +33,7 @@ function MovieInfo () {
       setDetails(movieInfo.data)
     })
     // specify the side effect should only run one time after component has rendered with dependency array
-    }, []);
+    }, [movie_id]);
 
   return (
     <section className="poster">
