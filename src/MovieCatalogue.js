@@ -5,7 +5,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 
 // want to use movie id which is in URL (at which this compnent renders) within our axios call to grab information from a URL (when using Router) we can use the useParams Hook
-import { useParams } from 'react-router-dom';
+// import { useParams } from 'react-router-dom';
 
 // to recreate behaviour of an anchor with added benefit/logic of React Router use the Link component
 import{ Link } from 'react-router-dom';
